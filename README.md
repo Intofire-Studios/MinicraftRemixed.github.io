@@ -1,2 +1,2 @@
-# MinicraftRemixed.github.io
+# https://intofire-studios.github.io/minicraftremixed/
 Website for Minicraft Remixed
