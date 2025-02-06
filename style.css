@@ -1,7 +1,35 @@
+@font-face {
+    font-family: pixelfont;
+    src: url(res/fonts/Monocraft.otf);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: pixelfont;
+    background-color: rgb(100, 100, 100);
+}
+
 .banner {
-    background-image: "res/img/banner.png";
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: ;
+    
+    background: url(res/img/banner.png);
+    background-size: cover;
+    background-position: center;
+    
+    border-bottom: 1px solid #ccc;
+    padding-bottom:5px;
+}
+
+.name {
+    color: #ffffff;
 }
 
 h1.chapter {
+    font-family: pixelfont;
     color: #67C20C;
 }
