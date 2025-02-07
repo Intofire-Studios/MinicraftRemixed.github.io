@@ -7,26 +7,55 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: pixelfont;
-    background-color: rgb(100, 100, 100);
+    background-color: #646464;
 }
 
-.banner {
+header {
     align-items: center;
     display: flex;
     justify-content: center;
     height: 400px;
-    width: ;
+    width: 100%;
     
     background: url(res/img/banner.png);
     background-size: cover;
     background-position: center;
     
-    border-bottom: 1px solid #ccc;
+    border-bottom: 5px solid #86ff67;
     padding-bottom:5px;
 }
 
 .name {
-    color: #ffffff;
+    height: 60px;
+}
+
+nav {
+    background-color: #a1a1a1;
+}
+  
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+  
+nav li {
+    display: inline-block;
+    border-left: 1px solid #5c5c5c;
+    border-right: 1px solid #5c5c5c;
+    background-color: #888888;
+}
+  
+nav a {
+    color: #fff;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  
+nav a:hover {
+    background-color: #575757;
 }
 
 h1.chapter {
